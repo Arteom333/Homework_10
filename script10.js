@@ -29,13 +29,15 @@ for (var myCurrentAge = 3; myCurrentAge < 16; myCurrentAge = myCurrentAge + 3) {
     console.log('myCurrentAge = ', myCurrentAge);
 }
 
-var ar = ['s1', 's2', 's3'];
-console.log('START FOR-IN ARRAY')
-for (var l in ar) {
-    console.log('l = ', l);
-}
+//var myCurrentAge = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
+//console.log('START FOR-IN ARRAY')
+//for (var numbers in myCurrentAge) {
+    //console.log('numbers = ', numbers);
+    //myCurrentAge = myCurrentAge + 3;
+//}
 
-ar.forEach(function (el, index) {
-    console.log('el = ', el, ' index = ', index);
-})
+   // ar.forEach(function (myCurrentAge) {
+        //console.log('myCurrentAge = ',myCurrentAge);
+        //myCurrentAge = myCurrentAge + 3;
+//})
 
